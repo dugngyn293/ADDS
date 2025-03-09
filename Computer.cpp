@@ -1,7 +1,10 @@
 #include "Computer.h"
 
-Computer::Computer(string name) : name(name) {}
+Computer::Computer() {
+  name = "Computer";
+  move = 'R';
+}
+
+std::string Computer::getName() { return "Computer"; }
 
 char Computer::makeMove() { return 'R'; }
-
-string Computer::getName() { return name; }
