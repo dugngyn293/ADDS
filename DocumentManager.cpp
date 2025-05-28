@@ -69,4 +69,3 @@ void DocumentManager::print() {
     std::cout << *i << std::endl;
   }
 }
-s
